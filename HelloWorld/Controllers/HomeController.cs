@@ -15,6 +15,7 @@ namespace HelloWorld.Controllers
 
 		public ActionResult About()
 		{
+			// Implemented feauture Admin-002.
 			ViewBag.Message = "Your application description page.";
 
 			return View();
