@@ -12,6 +12,7 @@ namespace HelloWorld
 	{
 		protected void Application_Start()
 		{
+			// Fixed regular bug Admin-004.
 			AreaRegistration.RegisterAllAreas();
 			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
