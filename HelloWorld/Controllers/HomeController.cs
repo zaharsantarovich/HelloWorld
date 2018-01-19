@@ -10,6 +10,7 @@ namespace HelloWorld.Controllers
 	{
 		public ActionResult Index()
 		{
+			// Implemented feature Admin-001.
 			return View();
 		}
 
